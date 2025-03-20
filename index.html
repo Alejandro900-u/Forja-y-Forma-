@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Carpintería y Más</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+        nav {
+            text-align: center;
+            background: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .service {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .service img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: #fff;
+            margin-top: 20px;
+        }
+        .contact-form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #222;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Servicios Profesionales de Carpintería, Aluminio, Impermeabilización y Pintura
+    </header>
+    <nav>
+        <a href="#carpinteria">Carpintería</a>
+        <a href="#aluminio">Aluminio</a>
+        <a href="#impermeabilizacion">Impermeabilización</a>
+        <a href="#pintura">Pintura</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container">
+        <div id="carpinteria" class="service">
+            <img src="carpinteria.jpg" alt="Carpintería">
+            <h2>Carpintería</h2>
+            <p>Diseño y fabricación de muebles a medida con materiales de alta calidad.</p>
+        </div>
+        <div id="aluminio" class="service">
+            <img src="aluminio.jpg" alt="Aluminio">
+            <h2>Aluminio</h2>
+            <p>Instalación y reparación de estructuras de aluminio, ventanas y puertas.</p>
+        </div>
+        <div id="impermeabilizacion" class="service">
+            <img src="impermeabilizacion.jpg" alt="Impermeabilización">
+            <h2>Impermeabilización</h2>
+            <p>Soluciones efectivas para evitar filtraciones y humedad en techos y paredes.</p>
+        </div>
+        <div id="pintura" class="service">
+            <img src="pintura.jpg" alt="Pintura">
+            <h2>Pintura</h2>
+            <p>Aplicación de pintura de alta calidad para interiores y exteriores.</p>
+        </div>
+        <div id="contacto" class="contact-form">
+            <h2>Contacto</h2>
+            <form>
+                <input type="text" name="name" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo Electrónico" required>
+                <textarea name="message" placeholder="Mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        Contacto: info@serviciosprofesionales.com | Tel: 123-456-7890
+    </footer>
+</body>
+</html>
